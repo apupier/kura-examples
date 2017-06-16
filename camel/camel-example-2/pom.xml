@@ -108,6 +108,9 @@
 	<profiles>
 		<profile>
 			<id>local-test</id>
+			<properties>
+				<kura.load.folder>${project.build.directory}/local</kura.load.folder>
+			</properties>
 			<build>
 				<plugins>
 
@@ -120,7 +123,7 @@
 									<goal>copy</goal>
 								</goals>
 								<configuration>
-									<outputDirectory>${project.build.directory}/local</outputDirectory>
+									<outputDirectory>${kura.load.folder}</outputDirectory>
 									<artifactItems>
 										<artifactItem>
 											<groupId>${project.groupId}</groupId>

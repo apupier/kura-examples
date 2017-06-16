@@ -80,6 +80,9 @@ public class CamelExampleConfigurableComponent implements ConfigurableComponent 
 
                 .requireComponent("stream")
                 .requireComponent("timer")
+                .requireComponent("log")
+                .requireComponent("direct")
+                .requireComponent("setBody")
 
                 // build the runner
 
