@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
 <routes id="routes-480552fc-6929-49c2-97c7-855af8fd791f"
     xmlns="http://camel.apache.org/schema/spring"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://camel.apache.org/schema/spring https://camel.apache.org/schema/spring/camel-spring-2.17.3.xsd">
